@@ -8,13 +8,13 @@
 **Data:** synthetic only (Tallowood Advisory Group is fictional; domain tallowood.example)
 
 ## What You Will Build
-An evaluation harness over 50 cases (30 standard, 10 edge, 10 adversarial) that scores accuracy, fabrication rate, citation match and the human loop's catch rate, compares with the last release and fails on regression.
+An evaluation harness over 120 cases (70 standard, 30 edge, 20 adversarial; the book's minimum is 50, 30 and 20) that scores accuracy, fabrication rate, citation match and the human loop's catch rate, compares with the last release and fails on regression.
 
 ## Why This Matters
 The demo used twelve hand-picked questions. An evaluation set is how you know the agent works on the questions you did not pick, and the catch rate tells you whether the wrong answers are stopped.
 
 ## Enterprise Scenario
-Tallowood's engagement letter assistant scores 86 per cent on the full set, fabricates a clause twice, and two wrong answers slip past the reviewer.
+Tallowood's engagement letter assistant scores 86 per cent on the full set, fabricates a clause five times, and two wrong answers slip past the reviewer.
 
 ## Learning Objectives
 - Build a test set with standard, edge and adversarial cases
