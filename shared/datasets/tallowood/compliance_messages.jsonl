@@ -1,0 +1,6 @@
+{"conv": "c01", "user_id": "u014", "text": "Summarise the attached engagement terms for the client in plain English."}
+{"conv": "c02", "user_id": "u024", "text": "Client TFN is 123 456 782, can you prepare the lodgement checklist?"}
+{"conv": "c03", "user_id": "u034", "text": "Draft an email confirming the meeting on Thursday."}
+{"conv": "c04", "user_id": "u044", "text": "Refund the client to card 4111 1111 1111 1111 and draft the note."}
+{"conv": "c05", "user_id": "u054", "text": "Rewrite this paragraph to be more concise."}
+{"conv": "c06", "user_id": "u013", "text": "Employee medical certificate says Medicare 2123 45670 1, summarise the leave request."}

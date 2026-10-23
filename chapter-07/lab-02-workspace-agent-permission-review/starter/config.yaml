@@ -1,0 +1,6 @@
+# Lab 7.2 Workspace Agent Permission Review: starter inputs (synthetic).
+policy:
+  allow_shared_personal_credentials: false
+  allowed_apps:
+  - Outlook
+  - SharePoint

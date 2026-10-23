@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 8.1 break it safely: A new workspace agent appears that nobody registered.
+discovered_extra:
+- agent_id: ag-07
+  name: Timesheet Nudger
+  surface: Workspace agent
+  status: pilot

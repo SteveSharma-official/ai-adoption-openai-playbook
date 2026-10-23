@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 5.2 break it safely: A developer copies a project key into a configuration repository 'for the build pipeline'.
+key_changes:
+  key_c3:
+    stored_in: config_repo

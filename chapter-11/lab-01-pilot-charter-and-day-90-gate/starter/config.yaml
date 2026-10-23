@@ -1,0 +1,15 @@
+# Lab 11.1 Pilot Charter and the Day 90 Gate: starter inputs (synthetic).
+charter:
+  process: Engagement letter preparation
+  baseline: 110.0
+  target: 70
+  safety_floors:
+    accuracy: 0.9
+    catch_rate: 1.0
+  executive_sponsor: u007
+measured:
+  value_metric: 84
+  accuracy: 0.94
+  catch_rate: 1.0
+  readiness_signed: false
+decision: Go

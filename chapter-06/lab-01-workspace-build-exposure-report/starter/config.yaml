@@ -1,0 +1,4 @@
+# Lab 6.1 Workspace Build Exposure Report: starter inputs (synthetic).
+allowed_groups_for_restricted:
+- group:people-team
+- group:executive

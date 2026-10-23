@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 4.1 break it safely: Someone proposes meeting notes as a Frontier agent.
+workloads__append:
+- id: meeting-notes
+  chosen_rung: Frontier

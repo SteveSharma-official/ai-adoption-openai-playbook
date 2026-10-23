@@ -1,0 +1,6 @@
+# Lab 4.1 fix after the break. Merged last.
+workloads__remove:
+- meeting-notes
+workloads__append:
+- id: meeting-notes
+  chosen_rung: Seats

@@ -1,0 +1,4 @@
+# Lab 5.2 fix after the break. Merged last.
+key_changes:
+  key_c3:
+    stored_in: secret_manager

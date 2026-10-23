@@ -1,0 +1,5 @@
+app,scopes,users,sanctioned,data_access
+ChatGPT Enterprise (sanctioned),"SharePoint, Outlook app",51,yes,documents
+NoteTaker AI,Calendars.Read Files.Read.All,7,no,documents
+PDF Chat,Files.Read,4,no,documents
+MailMate GPT,Mail.Send,5,no,email

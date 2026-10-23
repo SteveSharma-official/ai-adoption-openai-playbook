@@ -1,0 +1,4 @@
+# Lab 15.2 fix after the break. Merged last.
+deployment:
+  requires_onshore_inference: false
+  classification_note: Workloads that need onshore inference stay off this platform until inference residency is offered in Australia.

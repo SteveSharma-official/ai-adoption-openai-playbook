@@ -1,0 +1,2 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.3 break it safely: Retention is cleared during a settings migration.
+retention_days: null

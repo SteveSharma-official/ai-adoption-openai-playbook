@@ -1,0 +1,11 @@
+# Lab 4.1 solution overlay. Merged over config.yaml.
+workloads:
+- id: policy-faq
+  repeatable_team_workflow: true
+  chosen_rung: Workspace build
+- id: memo-drafting
+  chosen_rung: Seats
+- id: supplier-onboarding
+  repeatable_team_workflow: true
+  integrates_with_enterprise_systems: true
+  chosen_rung: API

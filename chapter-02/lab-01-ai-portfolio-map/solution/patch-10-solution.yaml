@@ -1,0 +1,14 @@
+# Lab 2.1 solution overlay. Merged over config.yaml.
+workloads:
+- id: memo-drafting
+  archetype: individual productivity
+  data_location: general
+  platform: ChatGPT Enterprise
+- id: engagement-search
+  archetype: data-grounded operations
+  data_location: SharePoint
+  platform: Microsoft 365 Copilot
+- id: procurement-agent
+  archetype: delegated agent work
+  data_location: ERP
+  platform: Frontier

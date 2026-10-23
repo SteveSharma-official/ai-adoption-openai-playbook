@@ -1,0 +1,8 @@
+# Lab 0.2 AI Adoption Maturity Self-Assessment: starter inputs (synthetic).
+claimed_level: 3
+evidence:
+  named_use_case: Engagement letter drafting
+  business_owner: u016
+  risk_assessment: RA-2026-21
+  data_boundary: null
+  logging: Compliance API export (partial)

@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 15.2 break it safely: A new workload is added that requires onshore inference.
+deployment:
+  requires_onshore_inference: true

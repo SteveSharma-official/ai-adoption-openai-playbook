@@ -1,0 +1,17 @@
+# Lab 14.1 solution overlay. Merged over config.yaml.
+router:
+  medication_route: Prescribing clinician review (same shift)
+drafts:
+- patient: P-1001
+  medication_change: true
+  patient_data_in_grounding: false
+  signed_by_clinician: true
+  released: true
+- patient: P-1002
+  medication_change: false
+  patient_data_in_grounding: false
+  signed_by_clinician: true
+  released: true
+agent_outputs:
+- patient: P-1002
+  type: draft_discharge_summary

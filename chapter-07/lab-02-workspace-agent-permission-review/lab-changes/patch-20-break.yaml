@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 7.2 break it safely: Approval for send_email is turned off on the supplier onboarding agent to 'reduce friction'.
+build_changes:
+  wsa-02:
+    approvals:
+      send_email: false

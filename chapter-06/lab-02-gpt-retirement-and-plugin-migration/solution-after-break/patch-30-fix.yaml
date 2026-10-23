@@ -1,0 +1,7 @@
+# Lab 6.2 fix after the break. Merged last.
+register:
+  gpt-03:
+    decision: plugin
+    owner: u026
+    target_date: '2026-11-20'
+    actions_plan: Replace crm_opportunity with the CRM app's supported actions

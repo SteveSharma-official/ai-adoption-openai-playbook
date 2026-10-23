@@ -1,0 +1,5 @@
+# Lab 6.1 fix after the break. Merged last.
+build_changes:
+  gpt-01:
+    knowledge:
+    - kf02

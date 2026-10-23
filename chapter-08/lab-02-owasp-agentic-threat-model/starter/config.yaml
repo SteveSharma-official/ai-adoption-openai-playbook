@@ -1,0 +1,41 @@
+# Lab 8.2 OWASP Agentic Threat Model: starter inputs (synthetic).
+control_catalogue:
+- tool gateway
+- approval gate
+- scoped agent identity
+- restricted API keys
+- retrieved content treated as data
+- prompt injection screening
+- output screening
+- code execution sandbox
+- memory review
+- plugin and app review
+- human review sampling
+- rate and spend limits
+- Compliance API monitoring
+- kill switch
+- supplier incident terms
+threats:
+  ASI01:
+    controls:
+    - prompt injection screening
+    - retrieved content treated as data
+    owner: u008
+  ASI02:
+    controls:
+    - tool gateway
+    - approval gate
+    owner: u008
+  ASI03:
+    controls:
+    - scoped agent identity
+    - restricted API keys
+    owner: u008
+  ASI05:
+    controls:
+    - code execution sandbox
+    owner: u008
+  ASI09:
+    controls:
+    - human review sampling
+    owner: null

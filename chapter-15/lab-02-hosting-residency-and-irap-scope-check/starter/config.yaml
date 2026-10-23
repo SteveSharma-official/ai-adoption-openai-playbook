@@ -1,0 +1,30 @@
+# Lab 15.2 Hosting, Residency and IRAP Scope Check: starter inputs (synthetic).
+allowed_regions:
+- Australia
+vendor_facts:
+  checked: '2026-10-23'
+  data_residency_regions:
+  - Australia
+  - Canada
+  - Europe
+  - India
+  - Japan
+  - Singapore
+  - South Korea
+  - United Arab Emirates
+  - United Kingdom
+  - United States
+  inference_residency_regions:
+  - Europe
+  - United States
+  - United Arab Emirates
+  irap_assessed_services: []
+deployment:
+  services:
+  - ChatGPT Enterprise
+  data_at_rest_region: United States
+  inference_region: United States
+  requires_onshore_inference: false
+  risk_acceptances: {}
+  agency_authorisation: {}
+  incident_notification_clause: false

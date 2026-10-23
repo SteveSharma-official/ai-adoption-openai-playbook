@@ -1,0 +1,12 @@
+# Lab 1.1 Seat Utilisation and Value Baseline: starter inputs (synthetic).
+seats: 58
+active_days_threshold: 4
+assigned_seats:
+- u027
+- u048
+- u014
+renewal_case:
+  evidence_type: messages
+  headline: 1.2 million messages sent this year
+  measured_workflows: []
+  seats_requested: 80

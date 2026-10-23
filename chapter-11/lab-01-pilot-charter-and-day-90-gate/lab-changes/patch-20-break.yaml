@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 11.1 break it safely: A late review shows the human loop missed two wrong letters.
+measured:
+  catch_rate: 0.8

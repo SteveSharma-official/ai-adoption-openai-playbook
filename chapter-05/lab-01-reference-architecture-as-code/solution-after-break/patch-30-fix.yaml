@@ -1,0 +1,11 @@
+# Lab 5.1 fix after the break. Merged last.
+architecture:
+  components__remove:
+  - Contract Review Bot
+  components__append:
+  - name: Contract Review Bot
+    layer: api_platform
+    identity: service account sa_contracts (restricted)
+    owner: u017
+    logging: Request logs to SIEM
+    data_boundary: Client contracts; zero data retention requested

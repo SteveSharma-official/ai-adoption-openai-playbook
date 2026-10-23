@@ -1,0 +1,9 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 17.2 break it safely: A vendor default model change lands with no evaluation.
+changes__append:
+- id: CHG-203
+  type: model
+  source: vendor_default
+  model: new-default-model (placeholder)
+  eval_passed: false
+  approved_by: null
+  deployed: true

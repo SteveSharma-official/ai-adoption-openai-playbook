@@ -1,0 +1,116 @@
+[
+  {
+    "build_id": "gpt-01",
+    "name": "Tax Research Helper",
+    "type": "gpt",
+    "owner": "u016",
+    "sharing": "group:tax",
+    "knowledge": [
+      "kf02"
+    ],
+    "apps": [],
+    "custom_actions": [],
+    "personal_credentials": false,
+    "approvals": {}
+  },
+  {
+    "build_id": "gpt-02",
+    "name": "People Answers",
+    "type": "gpt",
+    "owner": "u027",
+    "sharing": "workspace",
+    "knowledge": [
+      "kf07",
+      "kf04"
+    ],
+    "apps": [
+      "SharePoint"
+    ],
+    "custom_actions": [
+      "hris_lookup"
+    ],
+    "personal_credentials": false,
+    "approvals": {}
+  },
+  {
+    "build_id": "gpt-03",
+    "name": "Proposal Writer",
+    "type": "gpt",
+    "owner": "u026",
+    "sharing": "workspace",
+    "knowledge": [
+      "kf06",
+      "kf05"
+    ],
+    "apps": [],
+    "custom_actions": [
+      "crm_opportunity"
+    ],
+    "personal_credentials": false,
+    "approvals": {}
+  },
+  {
+    "build_id": "gpt-04",
+    "name": "Advisory Restructure Q&A",
+    "type": "gpt",
+    "owner": "u006",
+    "sharing": "link",
+    "knowledge": [
+      "kf03",
+      "kf01"
+    ],
+    "apps": [],
+    "custom_actions": [],
+    "personal_credentials": false,
+    "approvals": {}
+  },
+  {
+    "build_id": "plg-01",
+    "name": "Engagement Letter Drafter",
+    "type": "plugin",
+    "owner": "u016",
+    "sharing": "group:tax",
+    "knowledge": [
+      "kf04"
+    ],
+    "apps": [
+      "SharePoint"
+    ],
+    "custom_actions": [],
+    "personal_credentials": false,
+    "approvals": {}
+  },
+  {
+    "build_id": "wsa-01",
+    "name": "Weekly Pipeline Digest",
+    "type": "workspace_agent",
+    "owner": "u026",
+    "sharing": "group:advisory",
+    "knowledge": [],
+    "apps": [
+      "Outlook",
+      "SharePoint"
+    ],
+    "custom_actions": [],
+    "personal_credentials": true,
+    "approvals": {
+      "send_email": false
+    }
+  },
+  {
+    "build_id": "wsa-02",
+    "name": "Supplier Onboarding Agent",
+    "type": "workspace_agent",
+    "owner": "u009",
+    "sharing": "group:procurement",
+    "knowledge": [],
+    "apps": [
+      "Outlook"
+    ],
+    "custom_actions": [],
+    "personal_credentials": false,
+    "approvals": {
+      "send_email": true
+    }
+  }
+]

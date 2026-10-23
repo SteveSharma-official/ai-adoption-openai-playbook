@@ -1,0 +1,56 @@
+[
+  {
+    "key_id": "key_a1",
+    "project": "tax-research",
+    "owner": "u016",
+    "type": "project",
+    "permissions": "restricted",
+    "created": "2026-03-02",
+    "last_used": "2026-10-21",
+    "used_by": [
+      "Tax"
+    ],
+    "stored_in": "secret_manager"
+  },
+  {
+    "key_id": "key_b7",
+    "project": "default",
+    "owner": "u027",
+    "type": "user",
+    "permissions": "all",
+    "created": "2025-06-11",
+    "last_used": "2026-10-22",
+    "used_by": [
+      "Advisory",
+      "Client Services",
+      "Procurement"
+    ],
+    "stored_in": "config_repo"
+  },
+  {
+    "key_id": "key_c3",
+    "project": "proposal-drafts",
+    "owner": "u026",
+    "type": "project",
+    "permissions": "restricted",
+    "created": "2026-08-19",
+    "last_used": "2026-10-20",
+    "used_by": [
+      "Advisory"
+    ],
+    "stored_in": "env_var"
+  },
+  {
+    "key_id": "sa_d9",
+    "project": "procurement-agent",
+    "owner": "u009",
+    "type": "service_account",
+    "permissions": "restricted",
+    "created": "2026-09-30",
+    "last_used": "2026-10-22",
+    "used_by": [
+      "Procurement"
+    ],
+    "stored_in": "secret_manager"
+  }
+]

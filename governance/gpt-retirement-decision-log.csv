@@ -1,0 +1,2 @@
+build_id,name,owner,sharing,decision,replacement,custom_actions_rebuilt,knowledge_files_reclassified,decided_by,decided_on
+gpt-01,<name>,<owner>,<private|group|workspace>,<migrate|retire|rebuild>,<plugin or workspace agent id>,<yes|no|n/a>,<yes|no>,<name>,2026-10-23

@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.1 break it safely: A builder adds the staff performance ratings to the Tax Research Helper 'for context'.
+build_changes:
+  gpt-01:
+    knowledge:
+    - kf02
+    - kf07

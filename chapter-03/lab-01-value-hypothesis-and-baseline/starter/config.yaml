@@ -1,0 +1,10 @@
+# Lab 3.1 Value Hypothesis and Baseline: starter inputs (synthetic).
+hypothesis:
+  statement: ChatGPT will make the tax team more productive
+  metric: messages per user per week
+  metric_type: activity
+  value_category: null
+  baseline: null
+  target: null
+  measured_by: null
+  owner: null

@@ -1,0 +1,12 @@
+# Lab 8.3 Logging, Detection and the Kill Switch: starter inputs (synthetic).
+rules:
+- id: D1
+  type: action_without_approval
+logging:
+  compliance_export_enabled: true
+  retention_days: 30
+kill_switch:
+  owner: u008
+  steps:
+  - Pause agent in admin console
+  last_tested: null

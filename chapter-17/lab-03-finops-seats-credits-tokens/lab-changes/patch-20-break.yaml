@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 17.3 break it safely: Credit alerts are deleted during a workspace settings clean-up.
+guardrails:
+  credit_alerts: []

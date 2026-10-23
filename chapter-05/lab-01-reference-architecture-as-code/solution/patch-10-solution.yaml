@@ -1,0 +1,18 @@
+# Lab 5.1 solution overlay. Merged over config.yaml.
+architecture:
+  layers:
+    agent_platform:
+    - Frontier (proposed, not yet approved)
+  components:
+  - name: Proposal Drafting Service
+    layer: api_platform
+    identity: service account sa_proposals (restricted, project proposal-drafts)
+    owner: u026
+    logging: Request logs to SIEM; API usage
+    data_boundary: Client proposals; zero data retention requested
+  - name: Weekly Pipeline Digest
+    layer: workspace_builds
+    identity: workspace agent identity with approved app connections
+    owner: u026
+    logging: 'Compliance API: agent runs'
+    data_boundary: Pipeline summary only; no client files

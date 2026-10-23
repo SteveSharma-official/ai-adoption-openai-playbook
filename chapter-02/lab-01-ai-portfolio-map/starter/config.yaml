@@ -1,0 +1,35 @@
+# Lab 2.1 Enterprise AI Portfolio Map: starter inputs (synthetic).
+archetypes:
+- individual productivity
+- deep knowledge work
+- data-grounded operations
+- delegated agent work
+platforms:
+  ChatGPT Enterprise:
+    sanctioned: true
+    home_data:
+    - general
+  Microsoft 365 Copilot:
+    sanctioned: true
+    home_data:
+    - SharePoint
+    - Outlook
+  OpenAI API:
+    sanctioned: true
+    home_data: []
+  Frontier:
+    sanctioned: true
+    home_data: []
+workloads:
+- id: memo-drafting
+  archetype: individual productivity
+  data_location: general
+  platform: ChatGPT Enterprise
+- id: engagement-search
+  archetype: data-grounded operations
+  data_location: SharePoint
+  platform: ChatGPT Enterprise
+- id: procurement-agent
+  archetype: delegated agent work
+  data_location: ERP
+  platform: Frontier

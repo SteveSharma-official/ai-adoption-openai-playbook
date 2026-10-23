@@ -1,0 +1,21 @@
+# Lab 17.1 solution overlay. Merged over config.yaml.
+raci:
+  ag-02:
+    accountable: u003
+    responsible: u013
+  ag-04:
+    accountable: u009
+    responsible: u019
+runbook:
+  ag-02:
+    disable_steps:
+    - Unpublish the build
+    - Remove SharePoint app connection
+    - Notify People team
+    last_drill: '2026-10-15'
+  ag-04:
+    disable_steps:
+    - Pause the workspace agent (admin console or Compliance API)
+    - Disconnect Outlook app
+    - Notify Procurement
+    last_drill: '2026-10-15'

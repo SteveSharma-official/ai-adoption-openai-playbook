@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.2 break it safely: The proposal writer's action plan is cleared during a reorganisation of the register.
+register:
+  gpt-03:
+    decision: plugin
+    owner: u026
+    target_date: '2026-11-20'
+    actions_plan: null

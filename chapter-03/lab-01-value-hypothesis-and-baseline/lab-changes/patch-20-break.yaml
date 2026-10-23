@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 3.1 break it safely: The metric slips back to active users for the dashboard.
+hypothesis:
+  metric: active users per week
+  metric_type: activity

@@ -1,0 +1,28 @@
+# Tallowood Advisory Group reference architecture (solution state of Lab 5.1)
+architecture:
+  layers:
+    workspace:
+    - ChatGPT Enterprise workspace
+    - Global Admin Console
+    workspace_builds:
+    - Tax Research Helper (GPT)
+    - Weekly Pipeline Digest (workspace agent)
+    api_platform:
+    - Proposal Drafting Service (Responses API)
+    agent_platform:
+    - Frontier (proposed, not yet approved)
+    governance:
+    - Compliance API export to SIEM
+  components:
+  - name: Proposal Drafting Service
+    layer: api_platform
+    identity: service account sa_proposals (restricted, project proposal-drafts)
+    owner: u026
+    logging: Request logs to SIEM; API usage
+    data_boundary: Client proposals; zero data retention requested
+  - name: Weekly Pipeline Digest
+    layer: workspace_builds
+    identity: workspace agent identity with approved app connections
+    owner: u026
+    logging: 'Compliance API: agent runs'
+    data_boundary: Pipeline summary only; no client files

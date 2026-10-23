@@ -1,0 +1,23 @@
+# Lab Capstone solution overlay. Merged over config.yaml.
+case:
+  measured_hours: 66
+  rung: Workspace build
+  placement_justification: Letter templates and the client register sit in the practice management system, not SharePoint; the workspace build
+    reads approved templates only.
+  restricted_files_in_shared_builds: 0
+  gpts_without_decision: 0
+  agent_identity: workspace agent with approved apps
+  key_all_permissions: false
+  consequential_actions:
+  - action: send_engagement_letter
+    agent: approval
+  scores:
+    accuracy: 0.94
+    fabrication_rate: 0.02
+    citation_match: 0.96
+    catch_rate: 1.0
+  red_team_successes: 0
+  log_retention_days: 400
+  kill_switch_tested: true
+  supplier_notification_hours: 24
+  runbook: RB-ELA-01

@@ -1,0 +1,20 @@
+# Lab 8.3 solution overlay. Merged over config.yaml.
+rules:
+- id: D1
+  type: action_without_approval
+- id: D2
+  type: token_spike
+  threshold: 2000000
+- id: D3
+  type: key_created
+- id: D4
+  type: export_disabled
+logging:
+  retention_days: 400
+kill_switch:
+  steps:
+  - Pause or suspend the agent (admin console or Compliance API)
+  - Revoke its API key or service account
+  - Disable connected apps
+  - Notify owner and service desk
+  last_tested: '2026-10-15'

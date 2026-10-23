@@ -1,0 +1,12 @@
+# Lab 3.1 solution overlay. Merged over config.yaml.
+hypothesis:
+  statement: Drafting tax research memos with a governed workspace build will reduce partner-ready memo time from 6.5 to 4.5 hours within 90 days
+    without raising the review rework rate.
+  metric: hours per partner-ready research memo
+  metric_type: outcome
+  value_category: time returned
+  baseline: 6.5
+  target: 4.5
+  direction: down
+  measured_by: Practice management timesheets
+  owner: u016

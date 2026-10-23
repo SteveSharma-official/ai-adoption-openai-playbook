@@ -1,0 +1,14 @@
+# Lab 1.1 solution overlay. Merged over config.yaml.
+assigned_seats:
+- u014
+renewal_case:
+  evidence_type: measured_workflows
+  headline: Two measured workflows with baselines
+  seats_requested: 58
+  measured_workflows:
+  - name: Tax research memo drafting
+    baseline: 6.5 hours per memo (Aug 2026 timesheets)
+    owner: u016
+  - name: Audit working paper summaries
+    baseline: 41 minutes per paper (sampled)
+    owner: u011

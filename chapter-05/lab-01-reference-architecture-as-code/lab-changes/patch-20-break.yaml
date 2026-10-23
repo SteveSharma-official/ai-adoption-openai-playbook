@@ -1,0 +1,9 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 5.1 break it safely: A new contract review bot appears, authenticated with the shared key.
+architecture:
+  components__append:
+  - name: Contract Review Bot
+    layer: api_platform
+    identity: shared-api-key
+    owner: u017
+    logging: none
+    data_boundary: Client contracts

@@ -1,0 +1,2 @@
+agent_id,name,surface,owner,risk_tier,identity,data_sources,last_review,runbook
+ag-01,<name>,<custom GPT | plugin | workspace agent | API service | Frontier agent>,<owner>,medium,<agent identity or API project key>,<apps and knowledge files>,2026-10-23,<link>

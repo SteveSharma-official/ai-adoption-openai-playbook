@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 0.1 break it safely: `lab-changes/` points the lab at a production project and pastes a (fake, non-working) API key into a patch file.
+environment:
+  target: production
+  openai_api_key: sk-proj-INTENTIONALLY-INSECURE-EXAMPLE-0000000000
+  openai_project: tallowood-prod

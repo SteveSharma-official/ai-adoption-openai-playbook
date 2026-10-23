@@ -1,0 +1,290 @@
+[
+  {
+    "id": "0.1",
+    "title": "Quick Start and Lab Safety Check",
+    "path": "chapter-00/lab-01-quick-start",
+    "section": "0.4 How This Book Works",
+    "level": "1 (Explore)",
+    "break_rule": "secret-in-config"
+  },
+  {
+    "id": "0.2",
+    "title": "AI Adoption Maturity Self-Assessment",
+    "path": "chapter-00/lab-02-maturity-self-assessment",
+    "section": "0.3 The Question This Book Answers",
+    "level": "1 (Explore)",
+    "break_rule": "maturity-overclaim"
+  },
+  {
+    "id": "1.1",
+    "title": "Seat Utilisation and Value Baseline",
+    "path": "chapter-01/lab-01-seat-utilisation-and-value-baseline",
+    "section": "1.1 The Renewal That Forces the Question",
+    "level": "5 (Evaluate)",
+    "break_rule": "workflow-without-baseline"
+  },
+  {
+    "id": "1.2",
+    "title": "Process Baseline and the 90-Day Plan",
+    "path": "chapter-01/lab-02-process-baseline-and-90-day-plan",
+    "section": "1.5 What Value Looks Like When You Have to Defend It",
+    "level": "5 (Evaluate)",
+    "break_rule": "no-day-90-gate"
+  },
+  {
+    "id": "2.1",
+    "title": "Enterprise AI Portfolio Map",
+    "path": "chapter-02/lab-01-ai-portfolio-map",
+    "section": "2.3 The Enterprise AI Portfolio Map",
+    "level": "3 (Integrate)",
+    "break_rule": "no-archetype"
+  },
+  {
+    "id": "2.2",
+    "title": "Shadow AI Discovery",
+    "path": "chapter-02/lab-02-shadow-ai-discovery",
+    "section": "2.5 The Shared Governance Layer",
+    "level": "4 (Secure)",
+    "break_rule": "unreviewed-ai-signal"
+  },
+  {
+    "id": "3.1",
+    "title": "Value Hypothesis and Baseline",
+    "path": "chapter-03/lab-01-value-hypothesis-and-baseline",
+    "section": "3.4 The Value Hypothesis: A Statement You Can Test",
+    "level": "5 (Evaluate)",
+    "break_rule": "vanity-metric"
+  },
+  {
+    "id": "4.1",
+    "title": "The Decision Ladder",
+    "path": "chapter-04/lab-01-decision-ladder",
+    "section": "4.3 The Decision Tree",
+    "level": "2 (Build)",
+    "break_rule": "over-engineered"
+  },
+  {
+    "id": "5.1",
+    "title": "Reference Architecture as Code",
+    "path": "chapter-05/lab-01-reference-architecture-as-code",
+    "section": "5.5 The Reference Architecture",
+    "level": "2 (Build)",
+    "break_rule": "shared-key-identity"
+  },
+  {
+    "id": "5.2",
+    "title": "Identity Model and API Key Audit",
+    "path": "chapter-05/lab-02-identity-model-and-api-key-audit",
+    "section": "5.4 Whose Identity Is the AI Using?",
+    "level": "4 (Secure)",
+    "break_rule": "key-in-code"
+  },
+  {
+    "id": "6.1",
+    "title": "Workspace Build Exposure Report",
+    "path": "chapter-06/lab-01-workspace-build-exposure-report",
+    "section": "6.3 The Grounding Document Problem",
+    "level": "4 (Secure)",
+    "break_rule": "restricted-content-exposed"
+  },
+  {
+    "id": "6.2",
+    "title": "GPT Retirement and Plugin Migration Register",
+    "path": "chapter-06/lab-02-gpt-retirement-and-plugin-migration",
+    "section": "6.5 The API Transmission Surface and the Remediation Sequence",
+    "level": "6 (Govern)",
+    "break_rule": "custom-actions-unplanned"
+  },
+  {
+    "id": "6.3",
+    "title": "Prompt Content Check on a Compliance Export",
+    "path": "chapter-06/lab-03-prompt-content-check",
+    "section": "6.4 The Prompt Content Problem",
+    "level": "4 (Secure)",
+    "break_rule": "retention-unset"
+  },
+  {
+    "id": "7.1",
+    "title": "Human-Agent Authority Matrix Gateway",
+    "path": "chapter-07/lab-01-authority-matrix-gateway",
+    "section": "7.4 Tool Calling and the Authority Boundary",
+    "level": "4 (Secure)",
+    "break_rule": "gateway-bypass"
+  },
+  {
+    "id": "7.2",
+    "title": "Workspace Agent Permission Review",
+    "path": "chapter-07/lab-02-workspace-agent-permission-review",
+    "section": "7.5 The Approval Gate and the Never List",
+    "level": "4 (Secure)",
+    "break_rule": "approval-off-for-sensitive-action"
+  },
+  {
+    "id": "8.1",
+    "title": "Agent Register",
+    "path": "chapter-08/lab-01-agent-register",
+    "section": "8.1 The Control Plane: One View of the Estate",
+    "level": "6 (Govern)",
+    "break_rule": "unregistered-agent"
+  },
+  {
+    "id": "8.2",
+    "title": "OWASP Agentic Threat Model",
+    "path": "chapter-08/lab-02-owasp-agentic-threat-model",
+    "section": "8.2 The OWASP ASI Threat Catalogue",
+    "level": "4 (Secure)",
+    "break_rule": "unknown-control"
+  },
+  {
+    "id": "8.3",
+    "title": "Logging, Detection and the Kill Switch",
+    "path": "chapter-08/lab-03-logging-detection-kill-switch",
+    "section": "8.5 The Kill Switch and Incident Response",
+    "level": "7 (Deploy)",
+    "break_rule": "undetected-event"
+  },
+  {
+    "id": "8.4",
+    "title": "AI Supplier Incident Readiness",
+    "path": "chapter-08/lab-04-ai-supplier-incident-readiness",
+    "section": "8.5 The Kill Switch and Incident Response",
+    "level": "6 (Govern)",
+    "break_rule": "notification-too-slow"
+  },
+  {
+    "id": "9.1",
+    "title": "Use-Case Discovery Canvas and Process Archaeology",
+    "path": "chapter-09/lab-01-discovery-canvas-and-process-archaeology",
+    "section": "9.3 Process Archaeology: What Actually Happens",
+    "level": "1 (Explore)",
+    "break_rule": "single-process-rule"
+  },
+  {
+    "id": "10.1",
+    "title": "Failure Paths and the Human Loop",
+    "path": "chapter-10/lab-01-failure-paths-and-human-loop",
+    "section": "10.4 Designing for Failure",
+    "level": "5 (Evaluate)",
+    "break_rule": "unsafe-answer"
+  },
+  {
+    "id": "11.1",
+    "title": "Pilot Charter and the Day 90 Gate",
+    "path": "chapter-11/lab-01-pilot-charter-and-day-90-gate",
+    "section": "11.5 Day 90: The Decision",
+    "level": "6 (Govern)",
+    "break_rule": "gate-decision-unsupported"
+  },
+  {
+    "id": "12.1",
+    "title": "Evaluation Harness",
+    "path": "chapter-12/lab-01-evaluation-harness",
+    "section": "12.2 The Evaluation Scorecard",
+    "level": "5 (Evaluate)",
+    "break_rule": "regression"
+  },
+  {
+    "id": "12.2",
+    "title": "Red Team: Direct and Indirect Prompt Injection",
+    "path": "chapter-12/lab-02-red-team-prompt-injection",
+    "section": "12.3 The Test Dataset: Beyond Hand-Picked Questions",
+    "level": "4 (Secure)",
+    "break_rule": "injection-succeeded"
+  },
+  {
+    "id": "12.3",
+    "title": "Production Readiness Gate",
+    "path": "chapter-12/lab-03-production-readiness-gate",
+    "section": "12.4 The Production Readiness Gate",
+    "level": "6 (Govern)",
+    "break_rule": "missing-evidence"
+  },
+  {
+    "id": "13.1",
+    "title": "Financial Services Hardship Router and Agentic Audit Trail",
+    "path": "chapter-13/lab-01-fs-hardship-router-and-audit-trail",
+    "section": "13.4 The Explainability Design",
+    "level": "6 (Govern)",
+    "break_rule": "audit-chain-broken"
+  },
+  {
+    "id": "14.1",
+    "title": "Clinical Authority Line",
+    "path": "chapter-14/lab-01-clinical-authority-line",
+    "section": "14.1 The Clinical Authority Line",
+    "level": "6 (Govern)",
+    "break_rule": "clinical-decision-by-agent"
+  },
+  {
+    "id": "15.1",
+    "title": "Public Authority Line and Transparency Record",
+    "path": "chapter-15/lab-01-public-authority-and-transparency-record",
+    "section": "15.4 The Transparency Obligation",
+    "level": "6 (Govern)",
+    "break_rule": "automated-adverse-decision"
+  },
+  {
+    "id": "15.2",
+    "title": "Hosting, Residency and IRAP Scope Check",
+    "path": "chapter-15/lab-02-hosting-residency-and-irap-scope-check",
+    "section": "15.2 The Government Regulatory Map",
+    "level": "6 (Govern)",
+    "break_rule": "inference-offshore"
+  },
+  {
+    "id": "16.1",
+    "title": "IT and OT Boundary",
+    "path": "chapter-16/lab-01-it-ot-boundary",
+    "section": "16.2 Manufacturing: The Plant Floor and the Safety Boundary",
+    "level": "4 (Secure)",
+    "break_rule": "ot-write-path"
+  },
+  {
+    "id": "16.2",
+    "title": "Retail Returns and Pricing Rules",
+    "path": "chapter-16/lab-02-retail-returns-and-pricing-rules",
+    "section": "16.3 Retail: The Checkout and the Pricing Boundary",
+    "level": "6 (Govern)",
+    "break_rule": "commercial-decision-by-agent"
+  },
+  {
+    "id": "17.1",
+    "title": "Operating Model RACI, Runbook and Kill Switch Drill",
+    "path": "chapter-17/lab-01-raci-runbook-and-kill-switch-drill",
+    "section": "17.3 The RACI for AI in Production",
+    "level": "7 (Deploy)",
+    "break_rule": "no-accountable-owner"
+  },
+  {
+    "id": "17.2",
+    "title": "Model and Agent Change Control",
+    "path": "chapter-17/lab-02-model-and-agent-change-control",
+    "section": "17.4 The Support and Change Model",
+    "level": "7 (Deploy)",
+    "break_rule": "vendor-model-change-unevaluated"
+  },
+  {
+    "id": "17.3",
+    "title": "FinOps: Seats, Credits and Tokens",
+    "path": "chapter-17/lab-03-finops-seats-credits-tokens",
+    "section": "17.5 The Lifecycle: Build to Retire",
+    "level": "7 (Deploy)",
+    "break_rule": "no-spend-guardrail"
+  },
+  {
+    "id": "18.1",
+    "title": "Portfolio Prioritisation and Executive Dashboard",
+    "path": "chapter-18/lab-01-portfolio-prioritisation-and-dashboard",
+    "section": "18.3 The Portfolio Prioritisation Model",
+    "level": "8 (Scale)",
+    "break_rule": "platform-bypass"
+  },
+  {
+    "id": "Capstone",
+    "title": "Enterprise OpenAI Adoption Capstone",
+    "path": "capstone/enterprise-openai-adoption",
+    "section": "Chapters 1 to 18",
+    "level": "8 (Scale)",
+    "break_rule": "capstone-gate"
+  }
+]

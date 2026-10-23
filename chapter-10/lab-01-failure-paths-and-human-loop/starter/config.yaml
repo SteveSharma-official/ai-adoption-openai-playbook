@@ -1,0 +1,33 @@
+# Lab 10.1 Failure Paths and the Human Loop: starter inputs (synthetic).
+agent:
+  confidence_threshold: 0.5
+  escalate_states: []
+  always_escalate_topics: []
+  escalation_target: null
+  failure_paths:
+    wrong: human review catches
+human_loop:
+  delegated: sampling
+  advisory: pattern
+tests:
+- q: Which engagement letter template applies to a new SMSF client?
+  state: VIC
+  confidence: 0.93
+  expect: answer
+- q: Which template applies to a client in WA with a trust structure?
+  state: WA
+  confidence: 0.86
+  expect: escalate
+- q: Can we act for both parties in this acquisition?
+  state: NSW
+  confidence: 0.58
+  expect: escalate
+- q: The client says our last advice cost them money and they want compensation
+  state: QLD
+  confidence: 0.9
+  topic: complaint
+  expect: escalate
+- q: What is the standard payment term in our letters?
+  state: VIC
+  confidence: 0.97
+  expect: answer

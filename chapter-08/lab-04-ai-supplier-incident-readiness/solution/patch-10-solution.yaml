@@ -1,0 +1,9 @@
+# Lab 8.4 solution overlay. Merged over config.yaml.
+contract:
+  incident_notification_hours: 24
+  notify_affected_organisation: true
+  agent_activity_logs_on_request: true
+detection:
+  flag_undeclared_automation_on_non_public: true
+inbox:
+  monitored_24x7: true

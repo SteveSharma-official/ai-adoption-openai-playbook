@@ -1,0 +1,26 @@
+# Lab 8.1 solution overlay. Merged over config.yaml.
+register:
+- agent_id: ag-01
+  owner: u016
+  risk_tier: low
+  identity: user (workspace)
+- agent_id: ag-02
+  owner: u003
+  risk_tier: high
+  identity: user (workspace)
+- agent_id: ag-03
+  owner: u026
+  risk_tier: medium
+  identity: workspace agent (approved apps)
+- agent_id: ag-04
+  owner: u009
+  risk_tier: medium
+  identity: workspace agent
+- agent_id: ag-05
+  owner: u009
+  risk_tier: high
+  identity: Frontier agent identity (proposed)
+- agent_id: ag-06
+  owner: u026
+  risk_tier: medium
+  identity: service account sa_proposals

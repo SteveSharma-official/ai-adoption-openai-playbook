@@ -1,0 +1,9 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 7.1 break it safely: A developer wires the payment API straight to the agent for a demo.
+requests__append:
+- id: R5
+  action: approve_supplier_payment
+  amount: 31000
+  consequential: true
+  channel: direct
+matrix:
+  gateway_only: false

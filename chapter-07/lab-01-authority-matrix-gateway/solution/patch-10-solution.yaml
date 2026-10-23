@@ -1,0 +1,7 @@
+# Lab 7.1 solution overlay. Merged over config.yaml.
+matrix:
+  gateway_only: true
+  actions:
+    create_purchase_order:
+      agent: approval
+      auto_limit: 1000

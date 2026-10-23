@@ -1,0 +1,16 @@
+# Lab 10.1 solution overlay. Merged over config.yaml.
+agent:
+  confidence_threshold: 0.7
+  escalate_states:
+  - WA
+  always_escalate_topics:
+  - complaint
+  - conflict of interest
+  escalation_target: Risk and Quality queue (4 business hours)
+  failure_paths:
+    wrong: full partner review before release
+    missing: agent says the template library does not cover it and routes to Risk and Quality
+    conflicting: agent shows both sources and routes to the template owner
+human_loop:
+  delegated: full
+  advisory: sampling

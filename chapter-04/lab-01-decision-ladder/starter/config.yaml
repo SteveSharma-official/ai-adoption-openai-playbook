@@ -1,0 +1,11 @@
+# Lab 4.1 The Decision Ladder: starter inputs (synthetic).
+workloads:
+- id: policy-faq
+  repeatable_team_workflow: true
+  chosen_rung: API
+- id: memo-drafting
+  chosen_rung: Seats
+- id: supplier-onboarding
+  repeatable_team_workflow: true
+  integrates_with_enterprise_systems: true
+  chosen_rung: API

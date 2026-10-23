@@ -1,0 +1,16 @@
+# Lab 17.2 solution overlay. Merged over config.yaml.
+changes:
+- id: CHG-201
+  type: prompt
+  source: team
+  model: model-pinned-2026-09 (placeholder)
+  eval_passed: true
+  approved_by: u016
+  deployed: true
+- id: CHG-202
+  type: app
+  source: team
+  model: model-pinned-2026-09 (placeholder)
+  eval_passed: true
+  approved_by: CAB-2026-52
+  deployed: true

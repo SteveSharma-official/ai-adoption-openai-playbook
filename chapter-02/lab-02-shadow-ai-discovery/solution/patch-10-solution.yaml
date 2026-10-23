@@ -1,0 +1,33 @@
+# Lab 2.2 solution overlay. Merged over config.yaml.
+decisions:
+  chatgpt.com:
+    decision: migrate
+    owner: u008
+    note: Move personal-account users to the enterprise workspace
+  notetaker-ai.example:
+    decision: block
+    owner: u008
+  pdfchat.example:
+    decision: block
+    owner: u008
+  claude.ai:
+    decision: review
+    owner: u006
+  NoteTaker AI:
+    decision: block
+    owner: u008
+  PDF Chat:
+    decision: block
+    owner: u008
+  MailMate GPT:
+    decision: block
+    owner: u008
+  OpenAI (ChatGPT Plus):
+    decision: migrate
+    owner: u008
+  OpenAI (API):
+    decision: review
+    owner: u027
+  NoteTaker AI Pro:
+    decision: block
+    owner: u008

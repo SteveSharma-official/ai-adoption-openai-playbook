@@ -1,0 +1,20 @@
+# Lab 17.3 solution overlay. Merged over config.yaml.
+guardrails:
+  api_project_spend_limit: 800
+  credit_alerts:
+  - 0.5
+  - 0.9
+  - 1.0
+agents:
+- name: Engagement Letter Assistant
+  meter: workspace credits
+  monthly_runs: 5200
+  cost_per_run: 0.05
+  outcomes_per_month: 260
+  value_per_outcome: 60
+- name: Proposal Drafting Service
+  meter: API tokens
+  monthly_runs: 1800
+  cost_per_run: 0.06
+  outcomes_per_month: 40
+  value_per_outcome: 20

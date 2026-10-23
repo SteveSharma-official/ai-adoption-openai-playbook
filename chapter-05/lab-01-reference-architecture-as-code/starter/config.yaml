@@ -1,0 +1,27 @@
+# Lab 5.1 Reference Architecture as Code: starter inputs (synthetic).
+architecture:
+  layers:
+    workspace:
+    - ChatGPT Enterprise workspace
+    - Global Admin Console
+    workspace_builds:
+    - Tax Research Helper (GPT)
+    - Weekly Pipeline Digest (workspace agent)
+    api_platform:
+    - Proposal Drafting Service (Responses API)
+    agent_platform: []
+    governance:
+    - Compliance API export to SIEM
+  components:
+  - name: Proposal Drafting Service
+    layer: api_platform
+    identity: shared-api-key
+    owner: u026
+    logging: API usage dashboard only
+    data_boundary: Client proposals; 30-day API retention
+  - name: Weekly Pipeline Digest
+    layer: workspace_builds
+    identity: builder's personal credentials
+    owner: u026
+    logging: null
+    data_boundary: null

@@ -1,0 +1,9 @@
+# Lab 2.1 fix after the break. Merged last.
+workloads__remove:
+- client-portal-bot
+workloads__append:
+- id: client-portal-bot
+  archetype: data-grounded operations
+  data_location: general
+  platform: OpenAI API
+  justification: Client-facing portal integration needs the API; it answers from published service pages only, not from the document estate.

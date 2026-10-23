@@ -1,0 +1,6 @@
+# Lab 8.1 fix after the break. Merged last.
+register__append:
+- agent_id: ag-07
+  owner: u015
+  risk_tier: low
+  identity: workspace agent

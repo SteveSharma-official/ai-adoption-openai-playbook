@@ -1,0 +1,8 @@
+# Lab 6.3 Prompt Content Check on a Compliance Export: starter inputs (synthetic).
+dlp_rules:
+- pattern: card
+  action: alert
+  tool: DLP partner via Compliance API
+retention_days: null
+export_to: null
+max_retention_days: 365

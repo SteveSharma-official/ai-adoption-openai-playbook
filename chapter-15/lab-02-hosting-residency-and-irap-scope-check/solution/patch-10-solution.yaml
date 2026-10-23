@@ -1,0 +1,11 @@
+# Lab 15.2 solution overlay. Merged over config.yaml.
+deployment:
+  data_at_rest_region: Australia
+  risk_acceptances:
+    ChatGPT Enterprise: No IRAP report held for this service. Use limited to OFFICIAL information; residual risk accepted by the agency CISO,
+      reference RA-2026-33 (placeholder).
+  agency_authorisation:
+    date: '2026-10-20'
+    by: Agency CISO
+    basis: Supplier assurance reviewed (SOC 2), data residency at rest in Australia, OFFICIAL only, incident notification clause
+  incident_notification_clause: true

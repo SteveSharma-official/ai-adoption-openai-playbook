@@ -1,0 +1,34 @@
+# Lab 5.2 solution overlay. Merged over config.yaml.
+revoked:
+- key_b7
+new_keys:
+- key_id: key_e2
+  project: advisory-apps
+  owner: u006
+  type: project
+  permissions: restricted
+  created: '2026-10-23'
+  last_used: '2026-10-23'
+  used_by:
+  - Advisory
+  stored_in: secret_manager
+- key_id: key_f4
+  project: client-services-apps
+  owner: u015
+  type: project
+  permissions: restricted
+  created: '2026-10-23'
+  last_used: '2026-10-23'
+  used_by:
+  - Client Services
+  stored_in: secret_manager
+- key_id: sa_g1
+  project: procurement-tools
+  owner: u009
+  type: service_account
+  permissions: restricted
+  created: '2026-10-23'
+  last_used: '2026-10-23'
+  used_by:
+  - Procurement
+  stored_in: secret_manager

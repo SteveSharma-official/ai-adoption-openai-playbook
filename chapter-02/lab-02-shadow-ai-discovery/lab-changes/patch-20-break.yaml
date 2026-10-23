@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 2.2 break it safely: A new app consent appears with read-write access to documents.
+new_grants:
+- app: SlideGenie AI
+  scopes: Files.ReadWrite.All
+  users: '11'
+  sanctioned: 'no'
+  data_access: documents

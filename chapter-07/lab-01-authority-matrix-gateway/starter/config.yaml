@@ -1,0 +1,35 @@
+# Lab 7.1 Human-Agent Authority Matrix Gateway: starter inputs (synthetic).
+matrix:
+  gateway_only: false
+  consequential_threshold: 0
+  human_only:
+  - approve_supplier_payment
+  - change_bank_details
+  actions:
+    lookup_supplier:
+      agent: allowed
+    draft_purchase_order:
+      agent: allowed
+    create_purchase_order:
+      agent: approval
+      auto_limit: 5000
+    approve_supplier_payment:
+      agent: never
+    change_bank_details:
+      agent: never
+requests:
+- id: R1
+  action: lookup_supplier
+- id: R2
+  action: create_purchase_order
+  amount: 2400
+  consequential: true
+- id: R3
+  action: create_purchase_order
+  amount: 48000
+  consequential: true
+- id: R4
+  action: approve_supplier_payment
+  amount: 48000
+  consequential: true
+  channel: direct

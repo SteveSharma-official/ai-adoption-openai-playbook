@@ -1,0 +1,29 @@
+# Lab 9.1 solution overlay. Merged over config.yaml.
+candidates:
+- id: engagement-letters
+  name: Engagement letter preparation
+  volume_per_month: 260
+  hours_per_case: 2.2
+  data_ready: true
+  rules_documented: true
+  owner: u016
+  baseline_measured: true
+  selected: true
+- id: wip-billing
+  name: Work in progress billing review
+  volume_per_month: 80
+  hours_per_case: 4
+  data_ready: false
+  rules_documented: false
+  owner: u002
+  baseline_measured: false
+  selected: false
+- id: onboarding
+  name: New starter onboarding pack
+  volume_per_month: 12
+  hours_per_case: 5
+  data_ready: true
+  rules_documented: false
+  owner: u003
+  baseline_measured: false
+  selected: false

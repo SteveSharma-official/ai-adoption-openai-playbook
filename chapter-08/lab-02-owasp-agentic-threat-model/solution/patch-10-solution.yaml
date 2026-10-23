@@ -1,0 +1,29 @@
+# Lab 8.2 solution overlay. Merged over config.yaml.
+threats:
+  ASI04:
+    controls:
+    - plugin and app review
+    - supplier incident terms
+    owner: u008
+  ASI06:
+    controls:
+    - memory review
+    owner: u008
+  ASI07:
+    controls:
+    - tool gateway
+    owner: u008
+  ASI08:
+    controls:
+    - rate and spend limits
+    - kill switch
+    owner: u008
+  ASI09:
+    controls:
+    - human review sampling
+    owner: u006
+  ASI10:
+    controls:
+    - Compliance API monitoring
+    - kill switch
+    owner: u008

@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 8.4 break it safely: A renegotiated agreement quietly extends notification to 90 days.
+contract:
+  incident_notification_hours: 2160

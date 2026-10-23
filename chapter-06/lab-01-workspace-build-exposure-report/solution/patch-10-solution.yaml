@@ -1,0 +1,7 @@
+# Lab 6.1 solution overlay. Merged over config.yaml.
+build_changes:
+  gpt-02:
+    knowledge:
+    - kf04
+  gpt-04:
+    sharing: group:executive

@@ -1,0 +1,13 @@
+# Lab 8.4 AI Supplier Incident Readiness: starter inputs (synthetic).
+max_notification_hours: 72
+contract:
+  incident_notification_hours: null
+  notify_affected_organisation: false
+  agent_activity_logs_on_request: false
+  named_security_contact: security@vendor.example
+  independent_assurance_report: SOC 2 Type 2
+detection:
+  flag_undeclared_automation_on_non_public: false
+inbox:
+  address: security@tallowood.example
+  monitored_24x7: false

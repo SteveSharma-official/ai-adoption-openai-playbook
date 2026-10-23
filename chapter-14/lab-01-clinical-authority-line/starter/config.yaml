@@ -1,0 +1,23 @@
+# Lab 14.1 Clinical Authority Line: starter inputs (synthetic).
+router:
+  medication_route: null
+agent:
+  allowed_outputs:
+  - draft_discharge_summary
+  - draft_referral_letter
+drafts:
+- patient: P-1001
+  medication_change: true
+  patient_data_in_grounding: false
+  signed_by_clinician: false
+  released: false
+- patient: P-1002
+  medication_change: false
+  patient_data_in_grounding: true
+  signed_by_clinician: true
+  released: true
+agent_outputs:
+- patient: P-1002
+  type: draft_discharge_summary
+- patient: P-1003
+  type: approve_discharge

@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 2.1 break it safely: A team adds a workload with an archetype that is not on the map.
+workloads__append:
+- id: client-portal-bot
+  archetype: customer chatbot
+  data_location: general
+  platform: OpenAI API

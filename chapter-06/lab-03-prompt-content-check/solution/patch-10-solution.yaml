@@ -1,0 +1,13 @@
+# Lab 6.3 solution overlay. Merged over config.yaml.
+dlp_rules:
+- pattern: card
+  action: block
+  tool: DLP partner via Compliance API
+- pattern: tfn
+  action: redact
+  tool: DLP partner via Compliance API
+- pattern: medicare
+  action: redact
+  tool: DLP partner via Compliance API
+retention_days: 180
+export_to: SIEM and DLP partner

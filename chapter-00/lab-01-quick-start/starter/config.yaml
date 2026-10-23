@@ -1,0 +1,6 @@
+# Lab 0.1 Quick Start and Lab Safety Check: starter inputs (synthetic).
+environment:
+  target: local
+  openai_api_key_source: none
+  openai_project: null
+  notes: 'Local path: synthetic data, deterministic engine, no API key.'

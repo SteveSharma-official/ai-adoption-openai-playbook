@@ -1,0 +1,16 @@
+# Lab 17.2 Model and Agent Change Control: starter inputs (synthetic).
+changes:
+- id: CHG-201
+  type: prompt
+  source: team
+  model: model-pinned-2026-09 (placeholder)
+  eval_passed: true
+  approved_by: u016
+  deployed: true
+- id: CHG-202
+  type: app
+  source: team
+  model: model-pinned-2026-09 (placeholder)
+  eval_passed: false
+  approved_by: null
+  deployed: true

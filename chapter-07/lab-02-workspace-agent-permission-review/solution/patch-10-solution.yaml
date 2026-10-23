@@ -1,0 +1,6 @@
+# Lab 7.2 solution overlay. Merged over config.yaml.
+build_changes:
+  wsa-01:
+    personal_credentials: false
+    approvals:
+      send_email: true

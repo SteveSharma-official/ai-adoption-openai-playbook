@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 1.1 break it safely: Someone adds 'General productivity' as a measured workflow with no baseline or owner.
+renewal_case:
+  measured_workflows__append:
+  - name: General productivity
+    baseline: null
+    owner: null

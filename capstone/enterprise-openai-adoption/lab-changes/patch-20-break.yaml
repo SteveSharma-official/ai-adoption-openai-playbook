@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab Capstone break it safely: A late change lets the agent sign engagement letters directly.
+case:
+  consequential_actions:
+  - action: send_engagement_letter
+    agent: approval
+  - action: sign_engagement_letter
+    agent: allowed

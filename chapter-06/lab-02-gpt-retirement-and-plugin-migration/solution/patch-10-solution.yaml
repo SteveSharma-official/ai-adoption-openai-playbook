@@ -1,0 +1,19 @@
+# Lab 6.2 solution overlay. Merged over config.yaml.
+register:
+  gpt-01:
+    decision: plugin
+    owner: u016
+    target_date: '2026-11-20'
+  gpt-02:
+    decision: workspace_agent
+    owner: u003
+    target_date: '2026-11-27'
+    actions_plan: Rebuild hris_lookup as an approved app action via an internal MCP server
+  gpt-03:
+    decision: plugin
+    owner: u026
+    target_date: '2026-11-20'
+    actions_plan: Replace crm_opportunity with the CRM app's supported actions
+  gpt-04:
+    decision: retire
+    owner: u006

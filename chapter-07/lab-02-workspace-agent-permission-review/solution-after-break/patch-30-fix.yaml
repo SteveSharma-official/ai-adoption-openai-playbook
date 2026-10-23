@@ -1,0 +1,5 @@
+# Lab 7.2 fix after the break. Merged last.
+build_changes:
+  wsa-02:
+    approvals:
+      send_email: true

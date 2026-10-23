@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 8.2 break it safely: Someone writes 'vendor promise' as a control.
+threats:
+  ASI10:
+    controls:
+    - vendor promise
+    owner: u008

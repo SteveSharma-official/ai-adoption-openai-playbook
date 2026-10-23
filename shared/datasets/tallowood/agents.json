@@ -1,0 +1,38 @@
+[
+  {
+    "agent_id": "ag-01",
+    "name": "Tax Research Helper",
+    "surface": "GPT",
+    "status": "production"
+  },
+  {
+    "agent_id": "ag-02",
+    "name": "People Answers",
+    "surface": "GPT",
+    "status": "production"
+  },
+  {
+    "agent_id": "ag-03",
+    "name": "Weekly Pipeline Digest",
+    "surface": "Workspace agent",
+    "status": "pilot"
+  },
+  {
+    "agent_id": "ag-04",
+    "name": "Supplier Onboarding Agent",
+    "surface": "Workspace agent",
+    "status": "pilot"
+  },
+  {
+    "agent_id": "ag-05",
+    "name": "Procurement Agent",
+    "surface": "Frontier (proposed)",
+    "status": "proposal"
+  },
+  {
+    "agent_id": "ag-06",
+    "name": "Proposal Drafting Service",
+    "surface": "API (Responses API)",
+    "status": "production"
+  }
+]
