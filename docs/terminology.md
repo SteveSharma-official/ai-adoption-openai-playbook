@@ -9,7 +9,7 @@ These terms are used identically in the book and in this repository.
 | Value Hypothesis | Business metric, measured baseline, target, system of record, owner | 1, 3 | 1.2, 3.1 |
 | Enterprise AI Portfolio Map | Places each workload on a platform by where its data lives, with a written justification for exceptions | 2 | 2.1 |
 | Shadow AI Discovery | Finding unsanctioned AI use from proxy, OAuth grant and expense evidence | 2 | 2.2 |
-| Decision Ladder | Seats, Workspace build, API, Frontier, Host: start at the lowest rung that meets the need | 4 | 4.1 |
+| Decision Ladder | Buy (seats), Configure (workspace build), Integrate (API), Build (Frontier or the Agents SDK), Host: start at the lowest rung that meets the need | 4 | 4.1 |
 | Workspace build | A custom GPT, plugin or workspace agent built inside ChatGPT Enterprise or Business (Book 3 term covering all three) | 4, 6, 7 | 6.1, 6.2, 7.2 |
 | Reference Architecture as Code | Five layers (identity, experience, build, data, operations); every component has identity, owner, logging and data boundary | 5 | 5.1 |
 | Agent Identity | A dedicated, least-privilege identity per agent with an owner; never a shared or default-project API key | 5 | 5.1, 5.2 |

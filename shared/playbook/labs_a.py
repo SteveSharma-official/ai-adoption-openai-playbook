@@ -173,19 +173,19 @@ def value_hypothesis(cfg, lab):
 
 
 # ---------- Chapter 4 ----------
-RUNGS = ["Seats", "Workspace build", "API", "Frontier", "Host"]
+RUNGS = ["Buy", "Configure", "Integrate", "Build", "Host"]  # Buy: seats; Configure: workspace build; Integrate: API; Build: Frontier or Agents SDK
 
 
 def minimum_rung(w):
     if w.get("sovereign_hosting_required"):
         return "Host"
     if w.get("multi_system_autonomous_agent"):
-        return "Frontier"
+        return "Build"
     if w.get("integrates_with_enterprise_systems"):
-        return "API"
+        return "Integrate"
     if w.get("repeatable_team_workflow"):
-        return "Workspace build"
-    return "Seats"
+        return "Configure"
+    return "Buy"
 
 
 def decision_ladder(cfg, lab):
@@ -197,8 +197,8 @@ def decision_ladder(cfg, lab):
             r.find("over-engineered", f"{w['id']}: chose {c}, minimum is {m}, and no justification is recorded. Every rung up adds cost, ownership and attack surface.")
         if RUNGS.index(c) < RUNGS.index(m):
             r.find("under-scoped", f"{w['id']}: chose {c} but the workload needs at least {m}.")
-        if c == "Frontier" and not w.get("frontier_access_confirmed"):
-            r.find("platform-availability-unconfirmed", f"{w['id']}: Frontier had limited availability at the time of writing. Confirm access before you design around it.", blocking=False)
+        if c == "Build" and w.get("platform") == "Frontier" and not w.get("frontier_access_confirmed"):
+            r.find("platform-availability-unconfirmed", f"{w['id']}: Frontier had limited availability at the time of writing. Confirm access, or build with the Agents SDK on your own runtime.", blocking=False)
         rows.append({"workload": w["id"], "minimum": m, "chosen": c, "justification": w.get("justification", "")})
     return r, "The Decision Ladder", [("Rungs", md_table(rows, ["workload", "minimum", "chosen", "justification"]))], None
 

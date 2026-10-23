@@ -8,7 +8,7 @@
 **Data:** synthetic only (Tallowood Advisory Group is fictional; domain tallowood.example)
 
 ## What You Will Build
-A Decision Ladder record for three workloads: the minimum rung each needs (Seats, Workspace build, API, Frontier, Host), the rung chosen, and the justification when they differ.
+A Decision Ladder record for three workloads: the minimum rung each needs (Buy for seats, Configure for a workspace build, Integrate for the API, Build for Frontier or the Agents SDK, Host), the rung chosen, and the justification when they differ.
 
 ## Why This Matters
 Every rung up adds cost, ownership and attack surface. The engineering team that asks for API access before checking whether a workspace build will do is in the tool-first trap.

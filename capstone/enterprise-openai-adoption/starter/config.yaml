@@ -4,8 +4,8 @@ case:
   baseline_hours: 110.0
   target_hours: 70
   measured_hours: 84
-  rung: API
-  minimum_rung: Workspace build
+  rung: Integrate
+  minimum_rung: Configure
   platform: ChatGPT Enterprise
   home_platforms_for_data:
   - Microsoft 365 Copilot

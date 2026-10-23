@@ -2,10 +2,10 @@
 workloads:
 - id: policy-faq
   repeatable_team_workflow: true
-  chosen_rung: API
+  chosen_rung: Integrate
 - id: memo-drafting
-  chosen_rung: Seats
+  chosen_rung: Buy
 - id: supplier-onboarding
   repeatable_team_workflow: true
   integrates_with_enterprise_systems: true
-  chosen_rung: API
+  chosen_rung: Integrate

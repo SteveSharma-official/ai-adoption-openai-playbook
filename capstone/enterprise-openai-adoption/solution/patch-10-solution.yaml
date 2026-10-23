@@ -1,7 +1,7 @@
 # Lab Capstone solution overlay. Merged over config.yaml.
 case:
   measured_hours: 66
-  rung: Workspace build
+  rung: Configure
   placement_justification: Letter templates and the client register sit in the practice management system, not SharePoint; the workspace build
     reads approved templates only.
   restricted_files_in_shared_builds: 0

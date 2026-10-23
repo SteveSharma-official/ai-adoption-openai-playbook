@@ -3,4 +3,4 @@ workloads__remove:
 - meeting-notes
 workloads__append:
 - id: meeting-notes
-  chosen_rung: Seats
+  chosen_rung: Buy
